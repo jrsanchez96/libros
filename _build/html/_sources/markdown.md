@@ -1,55 +1,36 @@
-# Markdown Files
+# ¿Qué es la inteligencia artificial y la robótica?
+La inteligencia artificial y la robótica son áreas de las ciencias de la computación que permiten desarrollar 
+soluciones avanzadas que buscan automatizar la ejecución de ciertos procesos informáticos, 
+facilitando así el trabajo de los usuarios.
 
-Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
-in regular markdown files (`.md`), you'll write in the same flavor of markdown
-called **MyST Markdown**.
-This is a simple file to help you get started and show off some syntax.
+## ¿Qué diferencia existe entre inteligencia artificial y robótica?
 
-## What is MyST?
+La principal diferencia entre inteligencia artificial y la automatización recae en las funciones que cada software realiza,
+ ya que la inteligencia artificial se encarga de “pensar” como un humano para revisar y encontrar
+ problemáticas que luego notifica al usuario; mientras que la robótica es una tecnología de automatización que agilizan
+ procesos que los humanos llevan a cabo cuando interactúan con un sistema informático.
 
-MyST stands for "Markedly Structured Text". It
-is a slight variation on a flavor of markdown called "CommonMark" markdown,
-with small syntax extensions to allow you to write **roles** and **directives**
-in the Sphinx ecosystem.
+## ¿Cuál es el objetivo de esto?
 
-For more about MyST, see [the MyST Markdown Overview](https://jupyterbook.org/content/myst.html).
+A pesar de la diferencia entre robótica e inteligencia artificial existente, esto puede combinarse y unir sus capacidades para lograr una mayor productividad en sus tareas.
 
-## Sample Roles and Directives
-
-Roles and directives are two of the most powerful tools in Jupyter Book. They
-are kind of like functions, but written in a markup language. They both
-serve a similar purpose, but **roles are written in one line**, whereas
-**directives span many lines**. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.
-
-Here is a "note" directive:
-
-```{note}
-Here is a note
-```
-
-It will be rendered in a special box when you build your book.
-
-Here is an inline directive to refer to a document: {doc}`markdown-notebooks`.
+En otras palabras, la inteligencia artificial aplicada a la robótica combina el poder cognitivo
+ con la realización de tareas para facilitar la automatización de procesos más complejos, permitiéndole a los usuarios
+ del sector legal una mayor eficiencia y cumplimiento de las expectativas de los clientes en sus respectivos procesos
+ judiciales. 
 
 
-## Citations
 
-You can also cite references that are stored in a `bibtex` file. For example,
-the following syntax: `` {cite}`holdgraf_evidence_2014` `` will render like
-this: {cite}`holdgraf_evidence_2014`.
+## Ventajas y desventajas
 
-Moreover, you can insert a bibliography into your page with this syntax:
-The `{bibliography}` directive must be used for all the `{cite}` roles to
-render properly.
-For example, if the references for your book are stored in `references.bib`,
-then the bibliography is inserted with:
+Reducen los gastos en las operaciones que realizan los software.
+Aumentan la eficacia al implementar inteligencia artificial y robótica en el bufete, ya que se puede trabajar 
+más rápido e incluso por más horas a la semana.
+Minimizan el tiempo empleado para analizar documentación, lo que facilita la creación de informes
+ precisos y sin margen de error.
+ 
+ Desventajas de la inteligencia artificial y la robótica
+Poseen altos costos de implementación, ya que suele ser una tarea compleja que requiere recursos, tiempo y personal capacitado
+ en inteligencia artificial y robótica.
+Existe una escasez de profesionales cualificados que implementen y desarrollen el servicio adecuadamente. 
 
-```{bibliography}
-```
-
-## Learn more
-
-This is just a simple starter to get you started.
-You can learn a lot more at [jupyterbook.org](https://jupyterbook.org).

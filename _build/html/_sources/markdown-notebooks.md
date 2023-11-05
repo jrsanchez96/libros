@@ -1,53 +1,40 @@
 ---
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.11.5
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
+#La Inteligencia Artificial en la Educación
 
-# Notebooks with MyST Markdown
+  La inteligencia artificial (IA) tiene la capacidad de hacer frente a algunos de los mayores desafíos que afronta,
+  hoy en día, el ámbito de la educación, de desarrollar prácticas de enseñanza y aprendizaje innovadoras y, finalmente,
+  de acelerar el progreso en la consecución del ODS 4. No obstante, estos avances tecnológicos rápidos
+  implican inevitablemente numerosos riesgos y retos, que los debates sobre las políticas y los marcos reglamentarios 
+  tienen aún dificultades para poder superarlos.
 
-Jupyter Book also lets you write text-based notebooks using MyST Markdown.
-See [the Notebooks with MyST Markdown documentation](https://jupyterbook.org/file-types/myst-notebooks.html) for more detailed instructions.
-This page shows off a notebook written in MyST Markdown.
+# La Inteligencia Artificial y los futuros del aprendizaje
 
-## An example cell
+ proyecto sobre la inteligencia artificial y los futuros del aprendizaje se apoya en la Recomendación sobre la Ética
+ de la Inteligencia Artificial 
+ Un informe que propone recomendaciones sobre el aprendizaje del mañana basado en la IA;
+ Una guía sobre los principios éticos de la utilización de la IA en la educación;
+ Un marco de orientaciones sobre las competencias en materia de IA por parte de los educandos.
+ 
+## Enseñar la inteligencia artificial en las escuelas
 
-With MyST Markdown, you can define code cells with a directive like so:
+ El vínculo entre la IA y la educación consiste en tres ámbitos: aprender con la IA
+ (por ejemplo, utilizando las herramientas de IA en las aulas), aprender sobre la IA 
+ (sus tecnologías y técnicas) y prepararse para la IA (por ejemplo, permitir que todos los ciudadanos
+ comprendan la repercusión potencial de la IA en la vida humana). El proyecto ‘Enseñar la inteligencia artificial
+ en la escuela” se centra actualmente en dos componentes. Su objetivo es contribuir a la integración de los aspectos
+ humanos y técnicos de la IA en los programas de formación dirigidos a los jóvenes.
+ 
+ Elaboración de un marco de competencias en IA para los centros educativos;
+ creación y gestión de un repertorio en línea que acogerá los recursos pedagógicos seleccionados en materia de IA,
+ los planes de estudio nacionales sobre la IA y otras formaciones en competencias digitales esenciales;
+ organización de talleres para integrar la formación en materia de IA en los planes de estudio nacionales o institucionales
+ en determinados países.
 
-```{code-cell}
-print(2 + 2)
-```
+  ¿Cuáles son los beneficios de la IA para la gestión educativa?
+  
+  Adaptarse a las nuevas tecnologías puede convertirse en el gran diferencial de tu IE.
+  Esto puede mejorar su reconocimiento de marca y posicionarla como un referente en esta transformación.
 
-When your book is built, the contents of any `{code-cell}` blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.
+ Sin embargo, implementar la IA en la educació representa una gran inversión. Por eso, te compartiremos
+ algunos de los beneficios de adoptar esta innovación. 
 
-```{seealso}
-Jupyter Book uses [Jupytext](https://jupytext.readthedocs.io/en/latest/) to convert text-based files to notebooks, and can support [many other text-based notebook files](https://jupyterbook.org/file-types/jupytext.html).
-```
-
-## Create a notebook with MyST Markdown
-
-MyST Markdown notebooks are defined by two things:
-
-1. YAML metadata that is needed to understand if / how it should convert text files to notebooks (including information about the kernel needed).
-   See the YAML at the top of this page for example.
-2. The presence of `{code-cell}` directives, which will be executed with your book.
-
-That's all that is needed to get started!
-
-## Quickly add YAML metadata for MyST Notebooks
-
-If you have a markdown file and you'd like to quickly add YAML metadata to it, so that Jupyter Book will treat it as a MyST Markdown Notebook, run the following command:
-
-```
-jupyter-book myst init path/to/markdownfile.md
-```

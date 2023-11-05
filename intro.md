@@ -1,11 +1,10 @@
-# Welcome to your Jupyter Book
+# Bienvenido a mis libros creados con Jupyter Book
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+Este es un ejemplo de libros mostrados en una forma estructurada.
+Se incluye la mayoria de los tipos de archivo como algunos ejemplos del contenido de libros 
 
-Check out the content pages bundled with this sample book to see more.
+No se hace una descripcion detallada de un topico en particular- revise la documentacion de Jupyter book en 
+(https://jupyterbook.org) .
 
 ```{tableofcontents}
 ```
